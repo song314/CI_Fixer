@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.1.1">
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/entity/SizeInfo.java">
+        <error line="11" column="19" severity="error"
+               message="Name &apos;width&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="12" column="19" severity="error"
+               message="Name &apos;height&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/focus/FocusDistanceChecker.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/focus/FocusManager.java">
+        <error line="109" column="1" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/focus/StateMachine.java">
+        <error line="663" column="37" severity="error"
+               message="Name &apos;mSmHandlerObj&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/model/CameraModel.java">
+        <error line="241" column="9" severity="error" message="&apos;{&apos; should be on the previous line."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+        <error line="244" column="9" severity="error" message="&apos;{&apos; should be on the previous line."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+        <error line="308" column="9" severity="error" message="&apos;{&apos; should be on the previous line."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+        <error line="311" column="9" severity="error" message="&apos;{&apos; should be on the previous line."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/model/CameraParameters.java">
+        <error line="24" column="24" severity="error"
+               message="Name &apos;parameters&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/model/ICameraModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/model/IPreviewModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/model/PreviewModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/model/SoundManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/save/ImageSaver.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/save/Storage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/CameraBusinessSettingModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/CameraParameters.java">
+        <error line="25" column="24" severity="error"
+               message="Name &apos;parameters&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/CameraPrefKeys.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/CameraSettingModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/CameraSettings.java">
+        <error line="72" column="35" severity="error"
+               message="Name &apos;filterSizeList&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/CameraUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/IconListPreference.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/ListPreference.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/PGCameraPreferences.java">
+        <error line="25" column="33" severity="error"
+               message="Name &apos;lock&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/PreferenceGroup.java">
+        <error line="19" column="42" severity="error"
+               message="Name &apos;instance&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="20" column="41" severity="error"
+               message="Name &apos;preferenceMap&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/setting/PreferenceGroupMap.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/CameraBottomMenuView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/CameraCaptureModeSelector.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/CameraMenuBarListView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/CameraMenuBarPopupView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/CameraTopMenuView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/FocusIndicatorRotateLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/FocusViewUIManager.java">
+        <error line="164" column="3" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/IFocusIndicator.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/PGOrientationEventListener.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/PreviewFrameView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/PreviewTouchLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/RotateImageView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/RotateLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/ThumbnailView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/ui/TwoStateImageView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/ApiHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/CameraModuleUtil.java">
+        <error line="59" column="41" severity="error"
+               message="Name &apos;sImageFileNamer&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/CMLogger.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/Exif.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/GAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/PGExifInfo.java">
+        <error line="49" column="20" severity="error"
+               message="Name &apos;exifHead&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="50" column="39" severity="error"
+               message="Name &apos;list&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="51" column="21" severity="error"
+               message="Name &apos;littleEndian&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/ThumbnailHolder.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/camera/util/UtilStorage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/CompositeSDKEntryActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/edit/CompositeDataReceiver.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/edit/CropImageView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/edit/CropMask.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/edit/ImageViewTouch.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/edit/PhotoCropActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/adapter/SquareItemAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/BaseTitleFragment.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/detail/ParamInfoBean.java">
+        <error line="9" column="20" severity="error"
+               message="Name &apos;key&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="10" column="20" severity="error"
+               message="Name &apos;packName&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="11" column="20" severity="error"
+               message="Name &apos;name&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="12" column="17" severity="error"
+               message="Name &apos;type&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="13" column="20" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="14" column="19" severity="error"
+               message="Name &apos;minValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/detail/ParamListAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/FilterSquareActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/FilterSquareConst.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/fragment/FilterDetails.java">
+        <error line="50" column="23" severity="error"
+               message="Name &apos;MSG_START_DOWN_FILTER&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="246" column="13" severity="error"
+               message="Name &apos;myHandler&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/fragment/FilterSquareList.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/fragment/SquareFragment.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/image/ImageManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/CompositeModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/CompositeModelHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/entity/OnLineCompositeBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/ICompositeResourceManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/OnLineCompositeResourceManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/OnLineCompositeTypeBaseManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/OnLineHottestCompositeManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/model/OnLineNewestCompositeManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/list/BaseTopEffectControll.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/list/FilterListController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/list/FilterListFragment.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/list/ListItemView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/list/ListViewAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/list/ListViewController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/list/TopEffectController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/PageAdapter.java">
+        <error line="14" column="17" severity="error"
+               message="Name &apos;numItems&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/page/refresh/RefreshFragment.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/tab/IcsLinearLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/tab/TabPageIndicator.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/CCMenuBar.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/FilterListView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/HeadZoomMultipleListView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/PTRWithCountListView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/SlowShowingIamgeView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/SquareListView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/TransparentHeadPTRListView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/filter/square/view/ViewLayoutUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ActivityState.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/AlbumActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/AlbumAppImpl.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/AlbumDataLoader.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/AlbumPage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/AlbumSetDataLoader.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/AlbumSetPage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/anim/AlphaAnimation.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/anim/Animation.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/anim/CanvasAnimation.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/anim/FloatAnimation.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/Album.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/AlbumSet.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/BitmapPool.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/BytesBufferPool.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/ChangeNotifier.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/ContentListener.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/DataManager.java">
+        <error line="41" column="47" severity="error"
+               message="Name &apos;sDateTakenComparator&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/DecodeUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/Image.java">
+        <error line="55" column="16" severity="error"
+               message="Name &apos;rotation&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/ImageCacheRequest.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/ImageCacheService.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/LocalMediaItem.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/MediaDetails.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/MediaItem.java">
+        <error line="45" column="37" severity="error"
+               message="Name &apos;sMicroThumbPool&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="47" column="37" severity="error"
+               message="Name &apos;sThumbPool&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="48" column="42" severity="error"
+               message="Name &apos;sMicroThumbBufferPool&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/MediaObject.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/MediaSet.java">
+        <error line="336" severity="error" message="&apos;for&apos; construct must use &apos;{}&apos;s."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/data/Path.java">
+        <error line="13" column="18" severity="error"
+               message="Name &apos;date_token&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/EyePosition.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/GalleryActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/LoadingListener.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/RootActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/StateManager.java">
+        <error line="251" column="23" severity="error"
+               message="Name &apos;data&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="252" column="30" severity="error"
+               message="Name &apos;activityState&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/support/ArrayDeque.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/support/Deque.java">
+        <error line="2" column="18" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/support/OverScroller.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/TransitionStore.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AbstractSlotRenderer.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumEGLConfigChooser.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumLabelMaker.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumSetListSlotRenderer.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumSetSlidingWindow.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumSetSlotRenderer.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumSlidingWindow.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumSlotRenderer.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AlbumSortTagMaker.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/AnimationTime.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/BasicTexture.java">
+        <error line="54" column="60" severity="error"
+               message="Name &apos;sAllTextures&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/BitmapLoader.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/BitmapScreenNail.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/BitmapTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/CanvasTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/ColorTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/DownUpDetector.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/EdgeEffect.java">
+        <error line="84" column="23" severity="error"
+               message="Name &apos;MIN_WIDTH&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/EdgeView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/ExtTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/FadeInTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/FadeOutTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/FadeTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/FlingScroller.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GestureRecognizer.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GLCanvas.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GLCanvasImpl.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GLId.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GLPaint.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GLRoot.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GLRootView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/GLView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/layout/BaseSlotLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/layout/ContractSlotLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/layout/ExpandSlotLayout.java">
+        <error line="255" column="1" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/layout/ListSlotLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/NinePatchChunk.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/NinePatchTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/OrientationSource.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/Paper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/PhotoFallbackEffect.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/RawTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/RelativePosition.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/ResourceTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/ScreenNail.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/ScrollerHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/SlotView.java">
+        <error line="421" column="19" severity="error"
+               message="&apos;abstract&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="435" column="18" severity="error"
+               message="&apos;public&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="450" column="21" severity="error"
+               message="Name &apos;PHOTO_DISTANCE&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="567" column="25" severity="error"
+               message="Name &apos;isDown&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/StringTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/SynchronizedHandler.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/Texture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/TextureUploader.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/TileImageView.java">
+        <error line="51" column="37" severity="error"
+               message="Name &apos;sTilePool&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="467" column="15" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/TileImageViewAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/UploadedTexture.java">
+        <error line="239" column="19" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/ui/UserInteractionListener.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/UIConfig.java">
+        <error line="26" column="30" severity="error"
+               message="Name &apos;slotViewSpec&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="27" column="47" severity="error"
+               message="Name &apos;labelSpec&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="64" column="30" severity="error"
+               message="Name &apos;slotViewSpec&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="65" column="46" severity="error"
+               message="Name &apos;sortTagSpec&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/AlbumUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/BitmapUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/BlobCache.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/CacheManager.java">
+        <error line="32" column="53" severity="error"
+               message="Name &apos;sCacheMap&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/Future.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/FutureListener.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/GMLogger.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/IntArray.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/JobLimiter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/PriorityThreadFactory.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/Profile.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/ProfileData.java">
+        <error line="35" column="20" severity="error"
+               message="Name &apos;id&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="36" column="21" severity="error"
+               message="Name &apos;parent&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="37" column="20" severity="error"
+               message="Name &apos;sampleCount&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="38" column="32" severity="error"
+               message="Name &apos;children&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/RangeArray.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/RangeBoolArray.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/RangeIntArray.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/ThreadPool.java">
+        <error line="76" column="20" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/UpdateHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/gallery/util/Utils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/lib/DeviceInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/lib/MD5.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PersonalInformation.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGEmailFindPasswordActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGLoginBaseActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGLoginHomeActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGNewLoginActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGNewModifyPasswordActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGPhoneBindActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGPhoneFindPasswordActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGPhoneVerifyActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/PGRegisterActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/activity/Rotate3dAnimation.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/Base64.java">
+        <error line="8" column="33" severity="error"
+               message="Name &apos;encodingTable&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="23" column="33" severity="error"
+               message="Name &apos;decodingTable&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/Debug.java">
+        <error line="24" column="33" severity="error"
+               message="Name &apos;mIsNeedAddRecommdationItem&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/network/ApiAsyncTaskBase.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/os/AsyncError.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/os/AsyncFuture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/os/AsyncFutureAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/os/AsyncResult.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/os/AsyncSuccess.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/os/AsyncTask.java">
+        <error line="207" column="40" severity="error"
+               message="Name &apos;sThreadFactory&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="216" column="50" severity="error"
+               message="Name &apos;sPoolWorkQueue&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="241" column="42" severity="error"
+               message="Name &apos;sHandler&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/os/Fault.java">
+        <error line="7" column="17" severity="error"
+               message="Name &apos;status&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="8" column="20" severity="error"
+               message="Name &apos;message&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/util/MD5.java">
+        <error line="24" column="18" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/util/SystemUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/lib/util/ViewUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/LoginCanstants.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/BaseResponse.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/DeviceInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/EmailBind.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/EmailCheck.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/EmailLogin.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/EmailRegister.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/FindPassword.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/GetUserInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/LoginConfig.java">
+        <error line="116" column="20" severity="error"
+               message="Name &apos;channel&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="117" column="20" severity="error"
+               message="Name &apos;appKey&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/LoginResultEvent.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/ModifyPassword.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneBind.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneBindEmail.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneCheck.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneFindPassword.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneLogin.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneRegister.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneSendVerifyCode.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/PhoneVerify.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/User.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/model/UserHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/PGLoginConstants.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/StatusErrorCodeMessage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiChangeDescription.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiChangeFace.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiChangeGender.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiChangeNickname.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiDeletePhoneUser.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiEmailBind.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiEmailCheck.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiEmailLogin.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiEmailRegister.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiFindPassword.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiModifyPassword.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneBind.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneBindEmail.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneCheck.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneFindPassword.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneGetVerifyCode.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneLogin.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneRegister.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneSendVerifyCode.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiPhoneVerify.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/ApiUserInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/user/UserInfoResponse.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/AnimationAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/AnimUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/CheckEmailViewGroup.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/DimFrameLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/EditTextWithFork.java">
+        <error line="27" column="7" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/EditTextWithPrompt.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/EyeWithEditTextGroupView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/LoginHomeView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/Rotatable.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/Rotate3dAnimation.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/RotateLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/RotateTextToast.java">
+        <error line="35" column="21" severity="error"
+               message="Name &apos;stopAnimation&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/TitleView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/login/view/VerifyCodeAndInputViewGroup.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/MainApplication.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/bean/FilterData.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/bean/FilterDataList.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/bean/FilterUrl.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/excute/AddFilterInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/excute/GetFilterDataById.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/excute/GetFilterDataList.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/excute/GetFilterInfoById.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/network/excute/UpdateFilterInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/ApiQueryFeedbackData.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/ApiUploadFeedbackData.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Camera360FeedbackActivity.java">
+        <error line="518" column="18" severity="error"
+               message="Name &apos;feedbackMessage&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Camera360FeedbackAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Camera360FeedbackData.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Camera360FeedbackDatabaseField.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Camera360FeedbackDataseHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Camera360FeedbackNetworkUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Camera360FeedbackProvider.java">
+        <error line="21" column="37" severity="error"
+               message="Name &apos;sURLMatcher&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/CMessage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/CMessageManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/feedback/Constant.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/message/ApiPGMessageList.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/message/LoginSuccessReceiver.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/message/PGMessage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/message/PGMessageManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/message/PGOrderMessage.java">
+        <error line="9" column="19" severity="error"
+               message="Name &apos;id&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="10" column="19" severity="error"
+               message="Name &apos;logic&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="11" column="19" severity="error"
+               message="Name &apos;type&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/OpsitonActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/OptionConstants.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/OptionsSavePath.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/OptionsSavePathAdapter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/view/RoundImageView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/option/view/SettingItemMore.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/business/simple/PushSimpleBean.java">
+        <error line="28" column="32" severity="error"
+               message="Name &apos;ACTION_GALLERy&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="43" column="20" severity="error"
+               message="Name &apos;link&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="44" column="20" severity="error"
+               message="Name &apos;guid&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushCenter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushDataBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushGeTuiReceiver.java">
+        <error line="22" column="17" severity="error"
+               message="Name &apos;a&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushNewReceiver.java">
+        <error line="63" column="33" severity="error"
+               message="Name &apos;cm&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushNotifyBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushService.java">
+        <error line="13" column="26" severity="error"
+               message="Name &apos;lock&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="14" column="24" severity="error"
+               message="Name &apos;thread&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="15" column="20" severity="error"
+               message="Name &apos;activityPath&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/PushThread.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/Contants.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/FileUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/IDownloadProcess.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/NetWorkHelper.java">
+        <error line="37" column="29" severity="error"
+               message="Name &apos;TYPE__777&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/NetworkUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/PushNotify.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/PushParam.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/PushPreference.java">
+        <error line="43" column="31" severity="error"
+               message="Name &apos;sp&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="44" column="38" severity="error"
+               message="Name &apos;editor&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/PushURLSpan.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/PushUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/push/utils/SystemUtil.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/command/Task.java">
+        <error line="17" column="28" severity="error"
+               message="Name &apos;lock&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="19" column="23" severity="error"
+               message="Name &apos;isSucceed&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/command/TaskExample.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/command/TaskExit.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/command/TaskFilterDataDown.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/CompletionService.java">
+        <error line="19" column="31" severity="error"
+               message="Name &apos;conn&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/Constants.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/database/ServiceDatabaseField.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/database/ServiceDatabaseHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/database/ServiceDatabaseProvider.java">
+        <error line="20" column="37" severity="error"
+               message="Name &apos;sURLMatcher&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/database/TaskDataManager.java">
+        <error line="30" column="20" severity="error"
+               message="Name &apos;cursor&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/GetFilterInfoApi.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/ITaskCallback.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/model/TaskBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/model/TaskFilterDataDownBean.java">
+        <error line="9" column="20" severity="error"
+               message="Name &apos;id&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/Priority.java">
+        <error line="16" column="9" severity="error"
+               message="Name &apos;prioty_low&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="17" column="9" severity="error"
+               message="Name &apos;prioty_hight&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="18" column="15" severity="error"
+               message="Name &apos;prioty_mid&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/TaskExecutor.java">
+        <error line="15" column="20" severity="error"
+               message="Name &apos;testPriority&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/TaskManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/TaskService.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/TaskWorker.java">
+        <error line="0" severity="error" message="File does not end with a newline."
+               source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/service/utils/DataUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/CropImageView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/dialog/AlertDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/dialog/DialogBase.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/dialog/DialogManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/dialog/LogicDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/dialog/SelectDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/HighlightView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/ImageViewTouchBase.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/RotateBitmap.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/ui/RotateLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/AESEncrypt.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/AssetsUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/BitmapUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/ConstantUtil.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/BitmapManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/CacheService.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/CropImage.java">
+        <error line="152" column="15" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/ImageManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/MediaItem.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/MonitoredActivity.java">
+        <error line="105" column="3" severity="error"
+               message="File contains tab characters (this is the first instance)."
+               source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/Shared.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/Texture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/UriTexture.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/Util.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/cropImage/Utils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/DownloadFileUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/EncryptUtils.java">
+        <error line="259" severity="error" message="&apos;for&apos; construct must use &apos;{}&apos;s."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+        <error line="267" severity="error" message="&apos;for&apos; construct must use &apos;{}&apos;s."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/ImageClassifier.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/ImageManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/LocaleSupport.java">
+        <error line="15" column="32" severity="error"
+               message="Name &apos;zh_CN&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="16" column="32" severity="error"
+               message="Name &apos;zh_HK&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="17" column="32" severity="error"
+               message="Name &apos;zh_TW&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="18" column="32" severity="error"
+               message="Name &apos;en_US&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="19" column="32" severity="error"
+               message="Name &apos;th_TH&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="21" column="30" severity="error"
+               message="Name &apos;zh_CN_INDEX&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="22" column="30" severity="error"
+               message="Name &apos;zh_TW_INDEX&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="23" column="30" severity="error"
+               message="Name &apos;en_US_INDEX&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="27" column="34" severity="error"
+               message="Name &apos;sSupportLocales&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="28" column="37" severity="error"
+               message="Name &apos;sSupportLocaleNames&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="39" severity="error" message="&apos;for&apos; construct must use &apos;{}&apos;s."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/MD5.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/ResourceHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/SDCardUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/SDKLog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/StringUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/ToastUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/utils/ToolUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/widget/CompositeSDKDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/widget/EditPtrHorizontalScrollView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/widget/IndicatorView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/widget/ScrollInnerListView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/widget/TiltShiftSeekBar.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/wxapi/WXDataReceiver.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/edit/sdk/wxapi/WXEntryActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentAlbumPage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentAlbumSetPage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentBeautyController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentCameraActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentCcCameraFragment.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentGalleryActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentGroupActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentGroupController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/intent/IntentPhotoCropActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/ApiCallback.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/ApiConstants.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/BaseBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/BaseRequest.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/CommomReuquest.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/common/CommonApi.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/common/GetAppUpdate.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/common/GetUpdateInfoBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/Constants.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/ErrorTipApiCallback.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/HttpRequest.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/AddFilterInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/AddFilterInfoBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/AddProcessInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/AddProcessInfoBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/FilterInfoBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/GetFacebookUserInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/GetWechatUserInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/ShareApi.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/share/UserInfoBean.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/square/SquareApi.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/upload/PhotoUpload.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/upload/PhotoUploadPhotoAuth.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/upload/UploadApi.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/upload/UploadBean.java">
+        <error line="12" column="20" severity="error"
+               message="Name &apos;uid&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="13" column="20" severity="error"
+               message="Name &apos;timestamp&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/upload/UploadPhotoAuthBean.java">
+        <error line="11" column="20" severity="error"
+               message="Name &apos;url&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="12" column="20" severity="error"
+               message="Name &apos;token&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="13" column="20" severity="error"
+               message="Name &apos;expires&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/api/UploadRequest.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/AppCrashHandler.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/CrashReportActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixGuideFragment.java">
+        <error line="27" column="45" severity="error"
+               message="Name &apos;mImageIds&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="28" column="45" severity="error"
+               message="Name &apos;mDescViewIds&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixMainActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixShareActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixShareDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixShareFilterActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixShareListDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixTitleView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/MixVersionUpdateDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/RatingController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/SharePicActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/StatisticManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/com/pinguo/mix/UpdateController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/ActivityJumpController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/EffectGroupRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/CropEffectGroupRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/CropRendererMethodForPictureInfo.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/EffectGroupSavePathRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/EntryCompositeCropRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/GetGLSurfaceViewBitmapRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/GLSurfaceViewAdvanceRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/GLSurfaceViewCompositeForPathRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/GLSurfaceViewCompositeRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/GLSurfaceViewNormalRendererMethod.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/MakePhotoModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/model/TiltShiftMakePhotoModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/SDKManager.java">
+        <error line="20" column="21" severity="error"
+               message="Name &apos;isResume&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/androidsdk/SeniorAdjustmentEnum.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/beauty/RandomController.java">
+        <error line="210" column="13" severity="error"
+               message="Name &apos;index&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="211" column="16" severity="error"
+               message="Name &apos;tag&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="212" column="13" severity="error"
+               message="Name &apos;ratio&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/data/EffectDataManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/data/EffectSaveManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/EffectDatabaseHelper.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/EffectDict.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/EffectFactory.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/EffectModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/EffectResourceManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/CompositeEffect.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/Device.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/Effect.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/EffectRequirement.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/EffectType.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/IEffect.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/Param.java">
+        <error line="28" column="41" severity="error"
+               message="Name &apos;items&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/ParamColorBalanceItem.java">
+        <error line="12" column="19" severity="error"
+               message="Name &apos;defaultValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="14" column="19" severity="error"
+               message="Name &apos;noEffectValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="16" column="19" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/ParamCurveItem.java">
+        <error line="12" column="19" severity="error"
+               message="Name &apos;defaultValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="14" column="19" severity="error"
+               message="Name &apos;noEffectValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="16" column="19" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/ParamFloatItem.java">
+        <error line="12" column="18" severity="error"
+               message="Name &apos;min&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="14" column="18" severity="error"
+               message="Name &apos;max&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="16" column="18" severity="error"
+               message="Name &apos;defaultValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="18" column="18" severity="error"
+               message="Name &apos;noEffectValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="20" column="18" severity="error"
+               message="Name &apos;step&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="22" column="18" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/ParamItem.java">
+        <error line="19" column="19" severity="error"
+               message="Name &apos;key&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="21" column="19" severity="error"
+               message="Name &apos;effectKey&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="23" column="19" severity="error"
+               message="Name &apos;type&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="25" column="19" severity="error"
+               message="Name &apos;icon&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="27" column="19" severity="error"
+               message="Name &apos;name&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/ParamNoEffectItem.java">
+        <error line="13" column="18" severity="error"
+               message="Name &apos;min&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="15" column="18" severity="error"
+               message="Name &apos;max&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="17" column="18" severity="error"
+               message="Name &apos;defaultValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="19" column="18" severity="error"
+               message="Name &apos;noEffectValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="21" column="18" severity="error"
+               message="Name &apos;step&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="23" column="18" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/ParamStringItem.java">
+        <error line="12" column="19" severity="error"
+               message="Name &apos;defaultValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="14" column="19" severity="error"
+               message="Name &apos;noEffectValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="16" column="19" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/param/ParamVecItem.java">
+        <error line="12" column="19" severity="error"
+               message="Name &apos;defaultValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="14" column="19" severity="error"
+               message="Name &apos;noEffectValue&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="16" column="19" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/Requirement.java">
+        <error line="0" severity="error" message="File does not end with a newline."
+               source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+        <error line="7" column="16" severity="error"
+               message="Name &apos;sdkMin&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="8" column="16" severity="error"
+               message="Name &apos;sdkMax&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="9" column="16" severity="error"
+               message="Name &apos;engineMin&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="10" column="16" severity="error"
+               message="Name &apos;engineMax&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/shop/EffectPackage.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/shop/PackRequirement.java">
+        <error line="14" column="20" severity="error"
+               message="Name &apos;preferPregen&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/shop/Product.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/texture/Texture.java">
+        <error line="9" column="19" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="16" column="21" severity="error"
+               message="Name &apos;value&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="27" column="16" severity="error"
+               message="Name &apos;type&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="28" column="19" severity="error"
+               message="Name &apos;textureDir&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="29" column="30" severity="error"
+               message="Name &apos;items&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/texture/TextureItem.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/AdvanceBase.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/AdvanceHSL.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/AdvanceVignette.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/EnhanceHdr.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/EnhanceSkin.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/Filter.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/Frame.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/Lighting.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/RotateStraighten.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/Sharpen.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/TiltShift.java">
+        <error line="21" column="37" severity="error"
+               message="Name &apos;mTags&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="25" column="36" severity="error"
+               message="Name &apos;mValues&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="30" column="19" severity="error"
+               message="Name &apos;maskCmd&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="31" column="19" severity="error"
+               message="Name &apos;blurCmd&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="32" column="19" severity="error"
+               message="Name &apos;singleCmd&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/TiltShiftCircle.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/entity/type/TiltShiftLine.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/IEffectModel.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/IEffectResourceManager.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/effect/model/ResourceManagerUtils.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/BaseController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/BaseMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/CompositeSaveDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/CompositeSaveListDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/AdvanceHSLHighlightShadowMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/AdvanceHSLMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/AdvanceVignetteMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/DetailMenu.java">
+        <error line="646" column="68" severity="error"
+               message="Name &apos;rendererMethodActionListener&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/DiscolorationMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/FilterMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/FrameMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/HDRMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/RotateStraightenMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/ShadowMenu.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/SharpenMenu.java">
+        <error line="31" column="68" severity="error"
+               message="Name &apos;rendererMethodActionListener&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/SkinMenu.java">
+        <error line="30" column="68" severity="error"
+               message="Name &apos;rendererMethodActionListener&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="119" column="21" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/menu/TiltShiftMenu.java">
+        <error line="63" column="35" severity="error"
+               message="Name &apos;mTags&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+        <error line="67" column="34" severity="error"
+               message="Name &apos;mValues&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/PhotoSaveController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/group/TiltShiftController.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/PGCompositeSDKApi.java">
+        <error line="42" column="19" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="44" column="18" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="46" column="18" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="48" column="18" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="50" column="18" severity="error"
+               message="&apos;static&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/PGStarInsApi.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/AdjustContainerViewGroup.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/AutoHideTextView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/CommonProgressDialog.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/CompareImageView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/ComparePGGLSurfaceView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/EffectMenuHorizontalLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/EffectTypeCompositeItemView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/HorizontalLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/PGEditTiltShiftView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/SquareImageLoaderView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/VerticalLayout.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/android/effect/group/sdk/view/VerticalScrollImageView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGColorBuffer.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGGLSurfaceView.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGGLThread.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGImageSDK.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGNativeMethod.java">
+        <error line="11" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="14" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="17" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="19" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="21" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="24" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="27" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="30" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="33" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="36" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="39" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="45" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="48" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="51" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="53" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="56" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="59" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="61" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="64" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="66" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="69" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="75" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="78" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="80" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="82" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="84" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="86" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="88" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="91" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="94" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="97" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="99" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="101" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="103" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="105" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="107" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="109" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="111" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="113" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="123" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="125" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+        <error line="128" column="19" severity="error"
+               message="&apos;final&apos; modifier out of order with the JLS suggestions."
+               source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGRect.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGRendererMethod.java">
+        <error line="248" column="17" severity="error"
+               message="Name &apos;lastPngFilename&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+        <error line="250" column="17" severity="error"
+               message="Name &apos;lastParamsString&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/PGThreadPool.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/androidsdk/SDKReloadResourceListener.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/sdk/BeautyActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/sdk/BeautyController.java">
+        <error line="764" column="9" severity="error" message="&apos;}&apos; should be on the same line."
+               source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/sdk/GroupActivity.java">
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/us/pinguo/sdk/GroupController.java">
+        <error line="93" column="21" severity="error"
+               message="Name &apos;hasInit&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;."
+               source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+    </file>
+    <file name="/Users/pinguo/AndroidStudioProjects/Mix-develop5/src/vStudio/Android/GPhoto/GPhotoJNI.java">
+    </file>
+</checkstyle>

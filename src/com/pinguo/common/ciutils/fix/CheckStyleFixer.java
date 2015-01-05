@@ -26,6 +26,8 @@ public class CheckStyleFixer extends AbsCiFixer{
         }
     }
 
+    private HashSet<String> mMemberCheckSet = new HashSet<String>();
+    private HashSet<String> mConstantCheckSet = new HashSet<String>();
 
     @Override
     public void fix(String resultPath) {
@@ -50,17 +52,23 @@ public class CheckStyleFixer extends AbsCiFixer{
         System.out.println("            fix all checkstyle warnings, done");
     }
 
+
     private boolean fix(String path, String type, int line) {
 //        final File root
         //按方法A追加文件
 //        AppendToFile.appendMethodA(fileName, content);
         if ("com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck".equals(type)) {
+            System.out.println(" auto fix :  type = " + type + " , path = " + path);
             AppendToFile.appendMethodA(path, "\r\n");
-            System.out.println(" auto : " + path + " , type = " + type);
             return true;
         } else if ("com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck".equals(type)) {
+            System.out.println(" auto fix :  type = " + type + " , path = "  + path);
             fixModifierOrder(path, line);
             return true;
+        } else if ("com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck".equals(type)) {
+            fixNameCheck("@SuppressWarnings(" + "\"" + "checkstyle:membername"  + "\")", path, mMemberCheckSet);
+        } else if ("com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck".equals(type)) {
+            fixNameCheck("@SuppressWarnings(" + "\"" + "checkstyle:constantname" + "\")", path, mConstantCheckSet);
         }
         return false;
 
@@ -71,6 +79,59 @@ public class CheckStyleFixer extends AbsCiFixer{
 //        AppendToFile.appendMethodB(fileName, "append end. \n");
 //        //显示文件内容
 //        ReadFromFile.readFileByLines(fileName);
+    }
+
+    private void fixNameCheck(String type, String path, HashSet<String> set) {
+        if (set.contains(path)) {
+            System.out.println(" ignore file : " + path);
+            return;
+        }
+        set.add(path);
+
+        System.out.println(" auto fix :  type = " + type + " , path = "  + path);
+
+        BufferedReader reader = null;
+        FileWriter fw = null;
+        try {
+            final LinkedList<String> contentList = new LinkedList<String>();
+            reader = readContent(path, contentList);
+
+
+            for (int i = 0; i < contentList.size(); i++) {
+                String line = contentList.get(i);
+                if (line != null && line.length() > 0) {
+                    line = line.trim();
+                    if (line.startsWith("public class")) {
+                        if (contentList.get(i - 1).indexOf(type) < 0) {
+                            //避免重复加入
+                            contentList.add(i, type + "\n");
+                        } else {
+                            System.out.println(" ignore the file that has : " + type);
+                        }
+                        break;
+                    }
+                }
+            }
+
+            fw = writeContent(path, contentList);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e1) {
+                }
+            }
+
+            if (fw != null) {
+                try {
+                    fw.close();
+                } catch (IOException e1) {
+                }
+            }
+
+        }
     }
 
     private void fixModifierOrder(String path, int line) {
@@ -141,7 +202,7 @@ public class CheckStyleFixer extends AbsCiFixer{
         String tempString = null;
         while ((tempString = reader.readLine()) != null) {
             // 显示行号
-            contentList.add(tempString + "\r\n");
+            contentList.add(tempString + "\n");
         }
         return reader;
     }

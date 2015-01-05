@@ -16,8 +16,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        JenkinsAnalyser jenkinsAnalyser = new JenkinsAnalyser();
-
         if (args != null && args.length > 0) {
 //            jenkinsAnalyser.setHomePath(args[0]);
         } else {
